@@ -761,6 +761,16 @@ footer {
 .abt2 li:hover {
     color: #BCB88A;
 }
+.abt h3 {
+    color: #BCB88A; 
+    padding-bottom: 10PX; 
+    font-weight: bold;
+}
+.abt2 h3 {
+    color: #BCB88A; 
+    padding-bottom: 10PX; 
+    font-weight: bold;
+}
 
 @media (max-width:1231px) {
     body {
@@ -2292,7 +2302,7 @@ footer {
     
     }
 
- @media only screen and (min-width: 431px) and (max-width: 720px) {
+ @media only screen and (min-width: 430px) and (max-width: 720px) {
         header nav, header .account {
             display: none;
         } 
@@ -3066,6 +3076,9 @@ footer {
         }
         .fa-phone::before {
             margin-right: 110px;
+        }
+        .abt ul {
+           margin-bottom: 20px;
         }
         
      }
